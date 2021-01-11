@@ -22,11 +22,11 @@ function greet(name) {
  */
 console.log(isOdd(7) );
 console.log(isOdd(10));
+
 function isOdd(n) {
-  if(n%2 !=0){
-    return true;
-  }
-  return false;
+  
+    return n%2 !== 0;
+
 }
 
 /**
@@ -39,10 +39,8 @@ function isOdd(n) {
  * oddsSmallerThan(15) -> 7
  */
 function oddsSmallerThan(n) {
-  let c=0;
-  if(n%2 != 0){
-    return parseInt(n/2,10);
-  }
+
+    return parseInt(n/2);
 
 }
 
